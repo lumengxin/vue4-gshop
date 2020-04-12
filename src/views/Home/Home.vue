@@ -1,12 +1,15 @@
 <template>
   <div class="home">
+    home
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-
 export default {
-  name: "Home"
-};
+  name: 'Home'
+}
 </script>
+
+<style lang="stylus" scoped>
+// ...
+</style>
