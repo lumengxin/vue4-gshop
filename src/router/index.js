@@ -4,6 +4,7 @@ import Home from 'views/Home/Home.vue'
 import Order from 'views/Order/Order.vue'
 import Search from 'views/Search/Search.vue'
 import Mine from 'views/Mine/Mine.vue'
+import Login from 'views/Login/Login.vue'
 
 Vue.use(VueRouter)
 
@@ -20,19 +21,35 @@ const routes = [
   },
   {
     path: '/home',
-    component: Home
+    component: Home,
+    meta: {
+      showFooter: true
+    }
   },
   {
     path: '/order',
-    component: Order
+    component: Order,
+    meta: {
+      showFooter: true
+    }
   },
   {
     path: '/search',
-    component: Search
+    component: Search,
+    meta: {
+      showFooter: true
+    }
   },
   {
     path: '/mine',
-    component: Mine
+    component: Mine,
+    meta: {
+      showFooter: true
+    }
+  },
+  {
+    path: '/login',
+    component: Login
   }
 ]
 

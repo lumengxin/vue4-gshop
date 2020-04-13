@@ -1,12 +1,12 @@
 <template>
   <div id="app">
     <router-view />
-    <footer-guide></footer-guide>
+    <footer-guide v-show="$route.meta.showFooter"></footer-guide>
   </div>
 </template>
 
 <script>
-import FooterGuide from 'components/common/FooterGuide'
+import FooterGuide from 'components/FooterGuide/FooterGuide'
 
 export default {
   name: 'App',
@@ -18,5 +18,7 @@ export default {
 
 <style lang="stylus">
 #app
-  background pink
+  width 100%
+  height 100%
+  background #f5f5f5
 </style>
