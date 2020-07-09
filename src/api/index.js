@@ -6,7 +6,7 @@ import ajax from './ajax'
 
 // 端口不同，存在跨域：1.服务器端设置成允许；2.反向代理，绕过浏览器
 // const BASE_URL = 'http://localhost:3000'
-const BASE_URL = '/api'
+const BASE_URL = '/api-gshop'
 
 // 1、根据经纬度获取位置详情
 // export function getAddress() {}
