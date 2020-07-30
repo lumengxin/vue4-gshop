@@ -1,7 +1,9 @@
 'use strict'
 
+const BASE_URL = process.env.BASE_URL
+
 module.exports = {
-  publicPath: '/v19/vue4-gshop',
+  publicPath: BASE_URL,
   assetsDir: 'static',
   // productionSourceMap: false,
   devServer: {
